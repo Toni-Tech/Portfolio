@@ -1,0 +1,60 @@
+body {
+  background-color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+  color: white;
+}
+
+#name {
+  margin-bottom: 20px;
+  display: block !important;
+  margin-left: 0.3rem;
+}
+
+#email {
+  margin-bottom: 20px;
+  display: block !important;
+  margin-left: 0.3rem;
+}
+
+#message {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 0.3rem;
+}
+
+button {
+  margin-left: 3rem;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(180, 180, 83);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(180, 180, 83);
+  color: white;
+}
